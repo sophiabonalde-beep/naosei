@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fã Clube Digital - [Barbie]</title>
+   
+    <style>
+        /* ESTILO VISUAL DO SITE (Dica do Prof. Paulo: Não mude esta parte para não quebrar o layout!) */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #0f172a; /* Fundo escuro estilo Netflix/Spotify */
+            color: #f8fafc;
+        }
+        header {
+            background: linear-gradient(135deg, #1e1b4b, #311042);
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom: 4px solid #06b6d4;
+        }
+        header h1 { font-size: 3rem; color: #fff; text-shadow: 2px 2px 4px rgba(0,0,0,0.5); }
+        header p { font-size: 1.2rem; color: #06b6d4; margin-top: 10px; }
+       
+        .container { max-width: 1000px; margin: 30px auto; padding: 20px; }
+       
+        section {
+            background-color: #1e293b;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        h2 { color: #06b6d4; margin-bottom: 20px; font-size: 1.8rem; }
+       
+        /* Estilo para ajustar as imagens da internet */
+        .imagem-destaque {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            border: 3px solid #06b6d4;
+            box-shadow: 0 4px 15px rgba(6, 182, 212, 0.3);
+        }
+       
+        /* Grid para listar os itens favoritos */
+        .grid-favoritos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .item-card {
+            background-color: #0f172a;
+            padding: 20px;
+            border-radius: 8px;
+            border-top: 4px solid #06b6d4;
+        }
+        .item-card h3 { margin-bottom: 10px; color: #fff; }
+       
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #0f172a;
+            color: #64748b;
+            font-size: 0.9rem;
+            margin-top: 50px;
+            border-top: 1px solid #1e293b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tudo Sobre: [Barbie]</h1>
+       
+        <p>O universo de [Barbie] desvendado por [Sophia]</p>
+    </header>
+
+    <div class="container">
+
+        <section id="introducao">
+            <h2>Por que eu amo este assunto?</h2>
+           
+            <p>Escreva aqui o seu parágrafo de introdução. Por exemplo: se escolheu uma série, conte a história básica dela (sem spoilers!). Se escolheu uma banda ou cantor, conte de onde eles são e qual o estilo de música.</p>
+           
+            <img class="imagem-destaque" src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&quot; alt="Imagem Ilustrativa">
+        </section>
+
+        <section id="favoritos">
+            <h2>Meus 3 Itens Favoritos</h2>
+            <p>Estas são as melhores partes desse tema na minha opinião:</p>
+           
+            <div class="grid-favoritos">
+               
+                <div class="item-card">
+                    <h3>⭐ 1. Favorito Um</h3>
+                    <p>Substitua este texto explicando o motivo desse item ser o seu favorito número um e o que ele tem de tão especial.</p>
+                </div>
+
+                <div class="item-card">
+                    <h3>⭐ 2. Favorito Dois</h3>
+                    <p>Substitua este texto explicando o motivo desse segundo item ser incrível. Pode ser um álbum, um episódio específico ou um jogador.</p>
+                </div>
+
+                <div class="item-card">
+                    <h3>⭐ 3. Favorito Três</h3>
+                    <p>Substitua este texto explicando o seu terceiro item preferido dentro desse universo escolhido.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="curiosidades">
+            <h2>Você Sabia? (Curiosidades)</h2>
+            <p>Aqui estão alguns fatos interessantes que pouca gente sabe:</p>
+           
+            <ul style="margin-top: 15px; margin-left: 20px;">
+                <li><strong>Fato 1:</strong> Escreva aqui uma curiosidade sobre o seu tema.</li>
+                <li><strong>Fato 2:</strong> Escreva outra curiosidade chocante ou divertida.</li>
+                <li><strong>Fato 3:</strong> Adicione mais um detalhe técnico ou histórico que encontrou pesquisando na internet.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Site customizado por [Seu Nome] - Turma: [Sua Turma]</p>
+        <p>Projeto Escolar | Orientação: Professor Paulo Victor 💻</p>
+    </footer>
+
+</body>
+</html>
